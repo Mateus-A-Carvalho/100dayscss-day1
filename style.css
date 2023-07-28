@@ -1,0 +1,96 @@
+:root {
+  --gradient1: #0f0c29;
+  --gradient2: #302b63;
+  --bg-body1: #f12711;
+  --bg-body2: #f5af19;
+
+  --rem-pattern: 62,5%;
+  --bdrs: .5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--rem-pattern);
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+  display: flex;
+}
+
+.container {
+  text-align: center;
+  width: 25rem;  
+  height: 25rem;  
+  border-radius: var(--bdrs);
+  margin: auto;
+  background-image: linear-gradient(
+    to right,
+    var(--gradient1),
+    var(--gradient2)
+    );
+  position: relative;
+}
+
+.description {
+  position: absolute;
+  left: 25%;
+  top: 50%;
+}
+
+p .big {
+  font-size: 4.4rem ;
+  text-transform: uppercase;
+}
+
+p .small {
+  text-transform: uppercase;
+}
+
+.description p {
+  color: #fef;
+  font-size: 1.5rem;
+}
+
+
+div.first-zero {
+  background-color: #fff;
+  width: 5rem;;
+  height: 5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  z-index: 2;
+}
+
+div.second-zero {
+  background-color: #fff;
+  width: 5rem;;
+  height: 5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  right: 25%;
+}
+
+div.internal-zero {
+  background-image: linear-gradient(
+    to right,
+    var(--gradient1),
+    var(--gradient2)
+    );
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
