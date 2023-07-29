@@ -3,7 +3,6 @@
   --gradient2: #302b63;
   --bg-body1: #f12711;
   --bg-body2: #f5af19;
-
   --rem-pattern: 62,5%;
   --bdrs: .5rem;
 }
@@ -58,6 +57,26 @@ p .small {
   font-size: 1.5rem;
 }
 
+div.one-one {
+  width: 1.5rem;
+  height: 5rem;
+  background-color: #fff;
+  position: absolute;
+  border-radius: var(--bdrs);
+  top: 30%;
+  left: 30%;
+}
+
+div.one-two {
+  width: 1.5rem;
+  height: 2.5rem;
+  background-color: #fff;
+  position: absolute;
+  border-radius: var(--bdrs);
+  top: 30%;
+  left: 27%;
+  transform: rotate(45deg);
+}
 
 div.first-zero {
   background-color: #fff;
@@ -66,7 +85,7 @@ div.first-zero {
   border-radius: 50%;
   position: absolute;
   top: 30%;
-  left: 40%;
+  left: 37%;
   z-index: 2;
 }
 
@@ -77,7 +96,7 @@ div.second-zero {
   border-radius: 50%;
   position: absolute;
   top: 30%;
-  right: 25%;
+  right: 28%;
 }
 
 div.internal-zero {
